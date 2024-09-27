@@ -65,6 +65,22 @@
         color: black;
         font-weight: bold;
       }
+
+      .pro .card {
+        width: 200px;
+        border-style: none;
+      }
+      .pro .col {
+        width: 220px;
+      }
+
+      .pro .card img {
+        border-radius: 10px;
+      }
+
+      .card-text {
+        color: #aaaaaa;
+      }
     </style>
   </head>
   <body>
@@ -472,8 +488,96 @@
     <!-- 최신 컨텐츠 끝 -->
 
     <!-- 방영 중 프로그램 시작 -->
-    <section id="content" class="container mx-auto mt-5">
+    <section id="content" class="container mx-auto mt-5 mb-5">
       <span class="h2" style="font-weight: bold">방영 중 프로그램</span>
+
+      <div class="pro row row-cols-1 row-cols-md-2 g-4 mt-4">
+        <div class="col">
+          <div class="card">
+            <img src="image/gallery1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body mt-3">
+              <h5 class="card-title">70억의 선택</h5>
+              <p class="card-text">매주 [목] 오전9:00 방송</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="image/gallery2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body mt-3">
+              <h5 class="card-title">프리한 닥터</h5>
+              <p class="card-text">매주 [금] 오전9:00 방송</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="image/gallery3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body mt-3">
+              <h5 class="card-title">벌거벗은 세계사</h5>
+              <p class="card-text">매주 [화] 저녁10:10 방송</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="image/gallery4.jpg" class="card-img-top" alt="..." />
+            <div class="card-body mt-3">
+              <h5 class="card-title">유 퀴즈 온 더 블럭</h5>
+              <p class="card-text">매주 [수] 저녁8:45 방송</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="image/gallery5.jpg" class="card-img-top" alt="..." />
+            <div class="card-body mt-3">
+              <h5 class="card-title">놀라운 토요일</h5>
+              <p class="card-text">매주 [토] 저녁7:40 방송</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="image/gallery6.jpg" class="card-img-top" alt="..." />
+            <div class="card-body mt-3">
+              <h5 class="card-title">코미디빅리그</h5>
+              <p class="card-text">방송 휴지기</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 방영 중 프로그램 끝 -->
+
+    <!-- 진행 중 이벤트 시작 -->
+    <section id="event" class="container mx-auto mt-5">
+      <span class="h2" style="font-weight: bold">진행 중 이벤트</span>
+
+      <div class="card mb-3 mt-4" style="max-width:1320px; width: 1320px; height: 360px;">
+        <div class="row g-0">
+          <div class="col-md-4" style="width: 648px;">
+            <a href="#"><img
+              src="image/event1.png"
+              class="img-fluid rounded-start"
+              style="height: 360px; width: 648px;"
+              alt="..."
+            /></a>
+          </div>
+          <div class="col-md-8" style="width: 550px;">
+            <div class="card-body pt-5 ps-5" >
+              <a href="#" style="text-decoration: none; color: black;"><h5 class="card-title" style="font-weight: bold; font-size: 22px;">
+                [백패커2]극한의 출장 요리단이 직접 찾아갑니다!
+              </h5></a>
+              <p class="card-text pt-3">
+                기간 2024.05.07-2024.10.06 <br />
+                조회 67,986
+              </p>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </body>
 </html>
