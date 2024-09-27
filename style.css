@@ -1,8 +1,8 @@
 * {
-  margin: 0 !important;
-  padding: 0 !important;
-  box-sizing: border-box !important;
-  font-family: "Roboto", sans-serif !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -41,9 +41,6 @@ header .inner {
 .navbar-menu {
   display: flex !important;
   list-style: none !important;
-  padding: 10px !important;
-  margin-left: 460px !important;
-  margin-top: 10px !important;
 }
 
 .nav-item {
